@@ -1,0 +1,36 @@
+#about,#project{
+    background: rgb(30, 27, 27);
+}
+.about-section{
+    width: 100%;
+}
+.about-section .about-name{
+position: relative;
+left: 45%;
+top: 3vh;
+font-size: 3em;
+font-weight: bolder;
+}
+.about-container{
+    width: 100%;
+    margin: 2vh 0;
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-image{
+    width: 40vh;
+    height: 60vh;
+    border-radius: 3vh;    transition: 0.5s;
+background-image: url("../img/about-omsalunke.jpeg");
+background-size: cover;
+}
+.about-image:hover{
+    transform: scale(1.1);
+}
+.about-info{
+    width: 70vh;
+    text-align: justify;
+    height: 60vh;
+}
