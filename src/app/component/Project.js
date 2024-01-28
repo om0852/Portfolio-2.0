@@ -17,7 +17,6 @@ export default function Project() {
                         <a href="https://github.com/om0852/Zomato-clone"> <i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
-
                 <div class="work">
                     <img src={bluechipart.src} />
                     <div class="layer">
