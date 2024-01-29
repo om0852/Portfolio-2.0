@@ -1,7 +1,8 @@
-#about,#project{
+#about,#skills{
     background: rgb(30, 27, 27);
 }
 .about-section{
+    overflow: hidden;
     width: 100%;
 }
 .about-section .about-name{

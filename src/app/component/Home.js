@@ -6,8 +6,13 @@ import home_background from "../img/home_background.jpg"
 import Profile_Picture from "./Profile_Picture";
 import AboutMe from "./button/AboutMe";
 import About from "./About";
+import Skill from "./Skill"
 import Project from "./Project";
-
+import ContactMe from "./ContactMe"
+import github from "../img/icons8-github-30.png";
+import instagram from "../img/icons8-instagram.svg";
+import whatsapp from "../img/icons8-whatsapp.svg";
+import linkedin from "../img/icons8-linkedin.svg";
 import { useEffect, useState } from "react";
 export default function Home() {
     const [h1, seth1] = useState(null)
@@ -48,11 +53,10 @@ export default function Home() {
                         </p>
                         <AboutMe />                    </div>
                     <div class='social_media_link'>
-                        <div class='social_media_btn'><i class="fa-brands fa-whatsapp"></i></div>
-                        <div class='social_media_btn'><i class="fa-brands fa-youtube"></i></div>
-                        <div class='social_media_btn'><i class="fa-brands fa-twitter"></i></div>
-                        <div class='social_media_btn'><i class="fa-brands fa-instagram"></i></div>
-                        <div class='social_media_btn'><i class="fa-brands fa-facebook"></i></div>
+                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={github.src} /></div>
+                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={whatsapp.src} /></div>
+                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={instagram.src} /></div>
+                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={linkedin.src} /></div>
                     </div>
                 </div>
                 <Profile_Picture />
@@ -63,6 +67,10 @@ export default function Home() {
             <div id="projects">
                 <Project />
             </div>
+            <div id="skills">
+                <Skill />
+            </div>
+            <ContactMe />
         </div>
 
 

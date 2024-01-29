@@ -1,0 +1,100 @@
+
+.contact-l {
+    flex-basis: 35%;
+}
+.sub-header{
+    width: 40px;
+    margin-top: 5vh;
+    font-size: 60px;
+}
+.sub-header-email{
+    font-size: 20px;
+}
+.contact-r {
+    flex-basis: 60%;
+}
+
+.contact-l p {
+    margin-top: 30px;
+}
+
+.contact-l p i {
+    color: #ef5327;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social a:hover {
+    color: #ef5327;
+    transform: translateY(-5px);
+}
+
+.contact-r form {
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btncv {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 40px;
+
+}
+
+#submit-msg {
+    color: #61b752;
+    margin-top: -30px;
+    display: block;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container {
+    padding: 10px 10%;
+}
+
+ .contactme::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background-color: transparent;
+}
