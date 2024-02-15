@@ -51,13 +51,13 @@ export default function ContactMe() {
             <div className="container">
                 <div className="row">
                     <div className="contact-l">
-                        <h1 className="sub-header">Let&aposs Connect</h1>
+                        <h1 className="sub-header">Let&apos;Connect</h1>
                         <p className="sub-header-email"> <i className="fa-solid fa-envelope"></i> salunkeom474@gmail.com</p>
                         <div className="social">
-                            <a href="" target="_blank" rel="noreferrer noopener"><img style={{ width: "40px", height: "40px" }} src={whatsapp} alt="whatsapp" /></a>
-                            <a href="" target="_blank" rel="noreferrer noopener"><img style={{ width: "40px", height: "40px" }} src={instagram} alt="instagram" /></a>
-                            <a href="" target="_blank" rel="noreferrer noopener"><img style={{ width: "40px", height: "40px" }} src={linkedin} alt="linkedin" /></a>
-                            <a href="" target="_blank" rel="noreferrer noopener"><img style={{ width: "40px", height: "40px" }} src={github} alt="github" /></a>
+                            <a href="https://wa.me/+918390471333" target="_blank"  ><img style={{ width: "40px", height: "40px" }} src={whatsapp.src} alt="whatsapp" /></a>
+                            <a href="https://www.instagram.com/salunke_om0852/" target="_blank"  ><img style={{ width: "40px", height: "40px" }} src={instagram.src} alt="instagram" /></a>
+                            <a href="https://www.linkedin.com/in/om-salunke-81bb63292/" target="_blank" ><img style={{ width: "40px", height: "40px" }} src={linkedin.src} alt="linkedin" /></a>
+                            <a href="https://github.com/om0852" target="_blank"  ><img style={{ width: "40px", height: "40px" }} src={github.src} alt="github" /></a>
                         </div>
                     </div>
 

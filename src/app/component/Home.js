@@ -14,6 +14,7 @@ import instagram from "../img/icons8-instagram.svg";
 import whatsapp from "../img/icons8-whatsapp.svg";
 import linkedin from "../img/icons8-linkedin.svg";
 import { useEffect, useState } from "react";
+import Loaders from "./Loaders";
 export default function Home() {
     const [h1, seth1] = useState(null)
     let name = ["Frontend Developer", "Backend Developer", "Blockchain Developer"];
@@ -49,15 +50,16 @@ export default function Home() {
                     <div class='profile_detail'>
                         <h2>hi there</h2>
                         <h2>i&apos;m om salunke</h2>
-
+                        <Loaders />
                         <p id='skill_name'>I&apos;m <span id="skill_name_span">{h1}</span>
                         </p>
                         <AboutMe />                    </div>
                     <div class='social_media_link'>
-                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={github.src} /></div>
-                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={whatsapp.src} /></div>
-                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={instagram.src} /></div>
-                        <div class='social_media_btn'><img style={{ width: "40px", height: "40px" }} src={linkedin.src} /></div>
+                        <div class='social_media_btn'><a href="https://github.com/om0852"><img style={{ width: "40px", height: "40px" }} src={github.src} /></a></div>
+                        <div class='social_media_btn'><a href="https://wa.me/+918390471333"><img style={{ width: "40px", height: "40px" }} src={whatsapp.src} /></a></div>
+                        <div class='social_media_btn'><a href="https://www.instagram.com/salunke_om0852/"><img style={{ width: "40px", height: "40px" }} src={instagram.src} /></a></div>
+                        <div class='social_media_btn'><a href="https://www.linkedin.com/in/om-salunke-81bb63292/">
+                            <img style={{ width: "40px", height: "40px" }} src={linkedin.src} /></a></div>
                     </div>
                 </div>
                 <Profile_Picture />

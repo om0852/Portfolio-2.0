@@ -1,4 +1,10 @@
 
+#contact{
+    background-color: #262626;
+}
+input{
+    background-color: aliceblue;
+}
 .contact-l {
     flex-basis: 35%;
 }
@@ -50,10 +56,10 @@ form input, form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    /* background: #262626; */
     padding: 15px;
     margin: 15px 0;
-    color: white;
+    color: #262626;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -101,7 +107,7 @@ form .btncv {
 @media only screen and (max-width: 768px) {
 
 .row{
-    overflow: hidden;
+    /* overflow: hidden; */
     display: block;
 }
 }
