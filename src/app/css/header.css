@@ -18,17 +18,54 @@ height: 4vh;
     width: 100%;
     height: 15vh;
 }
-@media only screen and (max-width: 768px) {
+.navbar-section{
+position: fixed;
+    top: 6%;
+    z-index: 100;
 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav-section{
+    text-align: center;
+    background-color: black;
+    height: 7vh;
+    display: grid;
+    border-radius: 20vh;
+    width: 85vh;
+    padding:0 2vh;
+}
+.navbar-section nav ul{
+    width: auto;
+}
+.navbar-section nav ul li{
+    margin:0 2vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-section{
+        position:absolute;
+        width: max-content;
+        border-radius:20vh ;
+    }
 .navbar-section{
     background-color: black;
-    width: 90%;
+    width: auto;
+    position: fixed;
     height: 7vh;
     border-radius: 20vh;
     top: 90%;
+    z-index: 100;
     left: 5%;
 }
 .header-container{
     height: 5vh;
+}
+
+.header-setion nav ul li{
+    margin:0;
+}
+.li-name:nth-child(5){
+    display: none;
 }
 }

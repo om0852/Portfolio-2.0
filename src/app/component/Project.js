@@ -21,7 +21,7 @@ export default function Project() {
                     <img src={bluechipart.src} />
                     <div class="layer">
                         <h3>Bluechipart Website</h3>
-                        <p>This website allow user to buy a portfolio that consist stock,cypto and painting assest.Features:-Instant buy and sell,you can buy any amount you want,top portfolios.this website is develop using,Next.js,Express.js,Web3,Solodity,Mongodb</p>
+                        <p>This website allow user to buy a portfolio that consist stock,cypto and painting assest Features:-Instant buy and sell,you can buy any amount you want,top portfolios.this website is develop using,Next.js,Express.js,Web3,Solodity,Mongodb</p>
                         <a href="https://github.com/om0852/Assest-Pooling-and-Fractional-Ownership"> <i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Project() {
                     <img src={projectmanagement.src} />
                     <div class="layer">
                         <h3>Project Management website</h3>
-                        <p>This webiste allow you to manage project in an company.feature it includes are milestone updates,project tracking,access level.for development html,css,js,php,mysql</p>
+                        <p>This webiste allow you to manage project in an company feature it includes are milestone updates,project tracking,access level.for development html,css,js,php,mysql</p>
                         <a href="https://github.com/om0852/ProjectManagmentDsc"> <i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>

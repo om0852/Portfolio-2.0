@@ -11,11 +11,8 @@
     width: 100%;
 }
 .about-section .about-name{
-/* position: relative;
-left: 45%;
-top: 3vh;
 font-size: 3em;
-font-weight: bolder; */
+font-weight: bolder;
 }
 .about-container{
     width: 100%;

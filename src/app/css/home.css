@@ -115,9 +115,13 @@ background: linear-gradient(315deg,#00ccff,#d400d4);
     display: grid;
     place-items: center;
     height: 10vh;
+    border: 2px solid black;
     margin: 2vh 4vh;
     border-radius: 50%;
     background-color: black;
+}
+.social_media_btn:nth-child(1){
+    background-color: rgb(245, 240, 240);
 }
 @media screen and (max-width: 800px) {
     .box{
@@ -181,5 +185,8 @@ top: 0vh;
     }
     .social_media_btn:nth-child(1){
         background-color: rgb(245, 240, 240);
+    }
+    .social_media_link{
+        margin-left:-3vh;
     }
 }

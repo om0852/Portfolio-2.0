@@ -17,7 +17,7 @@ import "../css/about.css";
 export default function Skill() {
     return (
         <div className="skill-section">
-            <h2 style={{ fontSize: "50px", fontWeight: "bolder" }}>Skills</h2>
+            <h2 className="skill-name">Skills</h2>
             <div class='skill_container'>
                 <div class='skill_percentage'>
                     <div class='percentage_skill'>

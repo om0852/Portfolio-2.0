@@ -49,6 +49,11 @@
     margin: 5vh 0;
 width: 50vh;
 height: 40vh;
+display: grid;
+width: 100vh;
+column-gap: 10vh;
+grid-template-columns: auto auto;
+
 /* background-color: red; */
 }
 .percentage_skill{
@@ -57,6 +62,10 @@ height: 40vh;
 .skill_percentage{
     color: white;
     
+}
+.skill-section h2{
+font-size:50px;
+font-weight:bolder;
 }
 .percentage_skill h3{
     position: relative;
@@ -109,8 +118,13 @@ width: 80%;
     place-items: center;
 
 }
+.skill-section h2{
+    font-size:30px;
+}
 .skill_percentage{
     width:42vh;
+    grid-template-columns:auto;
+
     height: auto;
 }
 .skill_info{
