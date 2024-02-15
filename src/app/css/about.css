@@ -35,3 +35,19 @@ background-size: cover;
     text-align: justify;
     height: 60vh;
 }
+@media only screen and (max-width: 768px) {
+.about-container{
+    display: block;
+    height: auto;
+    text-align: center;
+    display: block;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin: 0 auto;
+    transform: translateX(-41%);
+    /* width: auto; */
+    text-align: center;
+}
+
+}
