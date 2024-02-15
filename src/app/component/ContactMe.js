@@ -51,7 +51,7 @@ export default function ContactMe() {
             <div className="container">
                 <div className="row">
                     <div className="contact-l">
-                        <h1 className="sub-header">Let's Connect</h1>
+                        <h1 className="sub-header">Let&aposs Connect</h1>
                         <p className="sub-header-email"> <i className="fa-solid fa-envelope"></i> salunkeom474@gmail.com</p>
                         <div className="social">
                             <a href="" target="_blank" rel="noreferrer noopener"><img style={{ width: "40px", height: "40px" }} src={whatsapp} alt="whatsapp" /></a>
