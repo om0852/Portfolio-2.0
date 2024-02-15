@@ -97,13 +97,21 @@ width: 72%;
 width: 80%;
 }
 @media screen and (max-width: 750px) {
+    #skill{
+        height: auto;
+    }
+    .skill-section{
+        height: auto;
+    }
 .skill_container{
     display: grid;
+    height: auto;
     place-items: center;
 
 }
 .skill_percentage{
     width:42vh;
+    height: auto;
 }
 .skill_info{
     width: 40vh;

@@ -75,8 +75,6 @@ export default function Skill() {
                         </div>
                     </div>
 
-                </div>
-                <div class='skill_percentage'>
                     <div class='percentage_skill'>
                         <div className="skill-img">
                             <img src={solidity.src} style={{ width: "30px", height: "30px" }} />

@@ -98,3 +98,10 @@ form .btncv {
     inset: 2px;
     background-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+
+.row{
+    overflow: hidden;
+    display: block;
+}
+}
