@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
                 <Profile_Picture />
             </div>
-            <div style={{ width: "100%", height: "100vh" }} id="about">
+            <div id="about">
                 <About />
             </div>
             <div id="projects">
