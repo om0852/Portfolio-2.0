@@ -49,6 +49,7 @@ export default function Home() {
                     <div class='profile_detail'>
                         <h2>hi there</h2>
                         <h2>i&apos;m om salunke</h2>
+
                         <p id='skill_name'>I&apos;m <span id="skill_name_span">{h1}</span>
                         </p>
                         <AboutMe />                    </div>
