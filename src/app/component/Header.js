@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { links } from "../data/links/header_links"
 import "../css/header.css";
+import { useRouter } from "next/router";
 export default function Header() {
     return (
         <>
@@ -15,7 +16,7 @@ export default function Header() {
                             links.map((data, index) => {
 
                                 return (
-                                    <li key={index} className="li-name" ><Link href={data.hash}>{data.name}</Link></li>
+                                    <li key={index} className="li-name" ><a href={data.hash}>{data.name}</a></li>
                                 )
                             })}
                     </ul>

@@ -42,10 +42,10 @@ export default function Home() {
     }, [])
     return (
         <div className="home-container">
-            <div className="header-container">
+            <div className="header-container" id="home">
                 <Header />
             </div>
-            <div className="home-body">
+            <div className="home-body" >
                 <div class='home_page_profile_detail'>
                     <div class='profile_detail'>
                         <h2>hi there</h2>
