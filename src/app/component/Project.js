@@ -22,7 +22,9 @@ export default function Project() {
                     <img src={bluechipart.src} />
                     <div class="layer">
                         <h3>Bluechipart Website</h3>
-                        <p>This website allow user to buy a portfolio that consist stock,cypto and painting assest is develop using,Next.js,Express.js,Web3,Solodity,Mongodb</p>
+                        <p>This website allow user to buy a portfolio that consist stock,cypto and painting assest is develop using,Next.js,Express.js
+                            ,Web3,Solodity,
+                            Mongodb</p>
                         <a href="https://github.com/om0852/Assest-Pooling-and-Fractional-Ownership"> <a href="https://github.com/om0852/Zomato-clone"> <img src={linkIcon.src} alt="link" /></a></a>
                     </div>
                 </div>
